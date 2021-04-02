@@ -269,7 +269,7 @@ async function starts() {
         		const bisakah = ['Bisa','Tidak Bisa']
 		        const kapankah = ['Hari Lagi','Minggu Lagi','Bulan Lagi','Tahun Lagi']
 			const botNumber = client.user.jid
-			const ownerNumber = ["6282135250846@s.whatsapp.net"] // replace this with your number
+			const ownerNumber = ["6289657856407@s.whatsapp.net"] // replace this with your number
 			const nomorOwner = [ownerNumber]
 			const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
@@ -287,9 +287,9 @@ async function starts() {
 			const isOwner = ownerNumber.includes(sender)
                         const isUser = user.includes(sender)
                         const isLevelingOn = isGroup ? _leveling.includes(groupId) : false
-                        const NomerOwner = '6282135250846@s.whatsapp.net' //ganti no lu
+                        const NomerOwner = '6289657856407@s.whatsapp.net' //ganti no lu
                         /******ApiKey Input******/
-                        const BarBarKey = 'YOUR_APIKEY'
+                        const BarBarKey = '11e7ytt0P4Rnkf1Q9Xvu'
                         /******End of ApiKey Input******/
 
 			const isUrl = (url) => {
